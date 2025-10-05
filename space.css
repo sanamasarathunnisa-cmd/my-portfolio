@@ -7,8 +7,9 @@
   }
 #headers{
     height: 175px;
-    background-color: #9A3F3F;
+    background-color: #984545;
     text-align: center;
+   
    
 }
 #name{
@@ -34,15 +35,15 @@
     padding-top: 15px;
     font-family: "Chicle", serif;
     font-weight: 100;
+    overflow: auto;
+    border-radius: 12px;
  }
  #para{
     font-family: serif;
     margin: 15px;
     font-size: 20px;
     font-family: "Iansui", cursive;
-    
  }
-
  #edu {
     background-color: #efbdcf;
     margin: 30px;
@@ -50,8 +51,9 @@
     text-align: center; 
     font-family: "Chicle", serif;
     font-weight: 200;
-}
+    border-radius: 12px;
 
+}
 #edu table {
     margin: 0 auto;
     font-family: "Iansui", cursive;
@@ -61,6 +63,7 @@
 #edu th, #edu td {
     padding: 10px 20px;
     border: 1px solid #000;
+
 }
 
  #skill{
@@ -71,20 +74,20 @@
     padding-top: 15px;
     font-family: "Chicle", serif;
     font-weight: 100;
-    
-
+    position: relative;
+    border-radius: 12px;
  }
  .skill_para{
     font-family: serif;
     font-size: 20px;
     font-family: "Iansui", cursive;
-    
+    line-height: 9px;
     margin-left: 225px;
     margin-right: 225px;
     margin-bottom: 15px;
     margin-top: 18px;
     padding: 2px;
-    
+    position: static;
  }
  
 #project{
@@ -96,17 +99,26 @@
     font-family: "Chicle", serif;
     font-weight: 100;
     font-size: 25px;
+    overflow: auto;
+    border-radius: 12px;
+    position: relative;
+    
+
 }
 .pro_para{
     font-family: serif;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Iansui", cursive;
     background-color: rgb(222, 208, 208);
     margin-left: 125px;
     margin-right: 125px;
     margin-bottom: 15px;
-    width: 1000px;
-    margin-top: 8px;
+    width: 50%
+    margin-top: 10px;
+    border-radius: 12px;
+
+
+   
 }
 #contact{
     background-color: #A49393;
@@ -117,6 +129,7 @@
     font-family: "Chicle", serif;
     font-weight: 100;
     font-size: 25px;
+    border-radius: 25px;
 }
 .con_para{
     font-family: serif;
