@@ -1,0 +1,135 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+#headers{
+    height: 175px;
+    background-color: #9A3F3F;
+    text-align: center;
+   
+}
+#name{
+  color: white;
+  font-weight: bold;
+  padding-top: 45px;
+  font-size: 50px;
+  font-family: "Chicle", serif;
+  font-weight: 400;
+    font-style: normal;
+}
+ #small_about{
+    color: #d7e1e4;
+    font-style: italic;
+    font-size: 17px;
+    padding-top: 10px ;
+ }
+ #abt_me{
+    background-color: #EED6D3;
+    margin: 30px;
+    height: 175px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Chicle", serif;
+    font-weight: 100;
+ }
+ #para{
+    font-family: serif;
+    margin: 15px;
+    font-size: 20px;
+    font-family: "Iansui", cursive;
+    
+ }
+
+ #edu {
+    background-color: #efbdcf;
+    margin: 30px;
+    padding: 15px; 
+    text-align: center; 
+    font-family: "Chicle", serif;
+    font-weight: 200;
+}
+
+#edu table {
+    margin: 0 auto;
+    font-family: "Iansui", cursive;
+    font-size: 20px;
+}
+
+#edu th, #edu td {
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+ #skill{
+    background-color: #ad8895;
+    margin: 30px;
+    height: 195px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Chicle", serif;
+    font-weight: 100;
+    
+
+ }
+ .skill_para{
+    font-family: serif;
+    font-size: 20px;
+    font-family: "Iansui", cursive;
+    
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 15px;
+    margin-top: 18px;
+    padding: 2px;
+    
+ }
+ 
+#project{
+    background-color: #D9A299;
+    margin: 30px;
+    height: 220px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Chicle", serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+.pro_para{
+    font-family: serif;
+    font-size: 20px;
+    font-family: "Iansui", cursive;
+    background-color: rgb(222, 208, 208);
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 15px;
+    width: 1000px;
+    margin-top: 8px;
+}
+#contact{
+    background-color: #A49393;
+    margin: 30px;
+    height: 220px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Chicle", serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+.con_para{
+    font-family: serif;
+    font-size: 20px;
+    font-family: "Iansui", cursive;
+    margin: 15px;
+}
+
+.table_data{
+    margin: 15px;
+    font-size: 20px;
+    font-family: "Iansui", cursive;
+   
+}
+
+
